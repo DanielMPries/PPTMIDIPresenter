@@ -21,9 +21,12 @@ A valid presentation consists of:
 This is in an early prototype stage with MIDI polling and slide tagging but no event assignments.  Currently an Arturia MiniLab is being used as a test controller for this application
 
 The following has to be done to leave prototype:
-- [ ] Ribbon Bar Global Presentation Settings for MIDI channel and device assignment
-- [ ] Ribbon Bar Global Presentation Settings for Section and Slide navigation
-- [ ] Ribbon Bar and/or Task Pane for active slide MIDI settings 
-- [ ] Slide Tag Interogation
+- [ ] A presentation manager to 
+  - Keep each slide's SlideConfiguration tag in sync with its parent Song/Section
+  - Track conflicting CC assignments within the same song but different parts
+- [ ] Ribbon Bar Global Presentation Settings for 
+  - MIDI channel and device assignment
+  - Section and Slide navigation
+- [ ] Task Pane for active slide MIDI settings 
 - [ ] Song Part UI Tag Editor
 - [ ] Ribbon Bar Global setting to toggle the add-in events on or off so that new presentations are not automatically interrogated or modified

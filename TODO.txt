@@ -1,0 +1,14 @@
+﻿remove file open events
+add ribbon bar item to
+1 - Validate all slides have data (enumerate SlideConfigurations)
+2 - Create slide data (enumerate slides by section and add data)
+3 - define default settings for parts
+4 - during presentation, read incoming MIDI data
+
+5 - When a deck opened, enumerate all the slides for their tags and add them to a collection of default tags
+  - When a deck is opened, enumerate over all of the slides and add any missing tags when prompted and the user selects yes
+6 - When a slide is selected, update the ribbon with the slide's settings
+  - Update the slide tag and set the song name equal to the current section
+7 - When a presentation starts, grab all of the slide numbers and thier corresponding tags 
+  - organize them by Song, CC# and Sort order
+  - update the Next Iterator to point to the next slide within a Song & CC group

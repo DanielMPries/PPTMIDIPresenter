@@ -6,7 +6,7 @@ This is in an early prototype stage with MIDI polling and slide tagging but no e
 The following has to be done to leave prototype:
 - [ ] Ribbon Bar Global Presentation Settings for MIDI channel and device assignment
 - [ ] Ribbon Bar Global Presentation Settings for Section and Slide navigation
-- [ ] Ribbon Bar and/or Action Pane for active slide MIDI settings 
+- [ ] Ribbon Bar and/or Task Pane for active slide MIDI settings 
 - [ ] Slide Tag Interogation
 - [ ] Song Part UI Tag Editor
 - [ ] Ribbon Bar Global setting to toggle the add-in events on or off so that new presentations are not automatically interrogated or modified
